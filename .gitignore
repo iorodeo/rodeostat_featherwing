@@ -1,0 +1,7 @@
+*~
+*.egg-info
+*.pyc
+*.hdf5
+*.cal
+node_modules
+data.txt
