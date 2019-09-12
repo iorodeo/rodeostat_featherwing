@@ -52,8 +52,8 @@ Wire Wire Line
 Text Label 2250 2000 0    50   ~ 0
 DAC_SETPT
 Wire Wire Line
-	2050 1600 2250 1600
-Text Label 2250 1600 0    50   ~ 0
+	2050 1700 2250 1700
+Text Label 2250 1700 0    50   ~ 0
 AIN_TIA
 Text Label 3300 950  2    50   ~ 0
 DAC_SETPT
@@ -483,8 +483,6 @@ NoConn ~ 2050 1100
 NoConn ~ 2050 1200
 NoConn ~ 2050 1300
 NoConn ~ 2050 1400
-NoConn ~ 2050 1500
-NoConn ~ 2050 1700
 NoConn ~ 2050 1800
 $Comp
 L power:GND #PWR04
@@ -569,4 +567,9 @@ Wire Wire Line
 	4400 3500 4400 5050
 Wire Wire Line
 	4850 4750 4850 5050
+NoConn ~ 2050 1600
+Wire Wire Line
+	2050 1500 2250 1500
+Text Label 2250 1500 0    50   ~ 0
+REF_ELECT_BUF
 $EndSCHEMATC

@@ -52,8 +52,8 @@ Wire Wire Line
 Text Label 2250 2000 0    50   ~ 0
 DAC_SETPT
 Wire Wire Line
-	2050 1600 2250 1600
-Text Label 2250 1600 0    50   ~ 0
+	2050 1700 2250 1700
+Text Label 2250 1700 0    50   ~ 0
 AIN_TIA
 Text Label 3300 950  2    50   ~ 0
 DAC_SETPT
@@ -268,7 +268,7 @@ REF_ELECT
 Wire Wire Line
 	4650 3750 4650 3500
 Wire Wire Line
-	4650 3500 5900 3500
+	4650 3500 4850 3500
 Wire Wire Line
 	5900 3500 5900 4900
 Wire Wire Line
@@ -297,9 +297,7 @@ F 3 "" H 5050 4900 50  0001 C CNN
 	1    5050 4900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4850 4750
 NoConn ~ 5250 3750
-NoConn ~ 4850 3750
 $Comp
 L Device:C C2
 U 1 1 5D5CEAC4
@@ -485,8 +483,6 @@ NoConn ~ 2050 1100
 NoConn ~ 2050 1200
 NoConn ~ 2050 1300
 NoConn ~ 2050 1400
-NoConn ~ 2050 1500
-NoConn ~ 2050 1700
 NoConn ~ 2050 1800
 $Comp
 L power:GND #PWR04
@@ -557,4 +553,25 @@ Text Notes 1150 4750 0    50   ~ 0
 3-pin header electrode connector
 Text Notes 9250 3000 0    50   ~ 0
 Adjust R3 and C3 to set current range.\n16.5K and 56nF gives +/- 100uA\n\nNote itmight be better to use something slightly \nsmaller e.g. 16k  so a not to right up to rails.
+Wire Wire Line
+	4850 3750 4850 3500
+Connection ~ 4850 3500
+Wire Wire Line
+	4850 3500 5900 3500
+Wire Wire Line
+	4650 3500 4400 3500
+Connection ~ 4650 3500
+Wire Wire Line
+	4850 5050 4400 5050
+Wire Wire Line
+	4400 3500 4400 5050
+Wire Wire Line
+	4850 4750 4850 5050
+Text Notes 3950 5700 0    50   ~ 0
+Notes:\n\n1. Put REF_ELECT_BUF on an analog input so that open circuit potential can be measured. 
+NoConn ~ 2050 1600
+Wire Wire Line
+	2050 1500 2250 1500
+Text Label 2250 1500 0    50   ~ 0
+REF_ELECT_BUF
 $EndSCHEMATC
