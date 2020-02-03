@@ -567,11 +567,15 @@ Wire Wire Line
 	4400 3500 4400 5050
 Wire Wire Line
 	4850 4750 4850 5050
-Text Notes 3950 5700 0    50   ~ 0
-Notes:\n\n1. Put REF_ELECT_BUF on an analog input so that open circuit potential can be measured. 
 NoConn ~ 2050 1600
 Wire Wire Line
 	2050 1500 2250 1500
 Text Label 2250 1500 0    50   ~ 0
 REF_ELECT_BUF
+Text Notes 3350 2500 0    50   ~ 0
+TODO: Don't use VGND here - \nuse fixed value 1.65V instead. 
+Text Notes 6000 2600 0    50   ~ 0
+TODO: Add analog switch to CTR electrode \nso that is can be disconnected. 
+Text Notes 4300 6250 0    50   ~ 0
+* While the LM7721 amplifiers are rail-to-rail output they \n   don't appear to be rail-to-rail input.  So input voltage is limited \n   to about 0.42V of top rail. \n\n* TODO: Add ground clip\n\n* Change op amp selection? rail-to-rail input and output?  \n   Maybe MCP6004T-I/SL    (Digikey 	MCP6004T-I/SLCT-ND)\n\n* Possible switch ADG702BRTZ-REEL7  \n
 $EndSCHEMATC
