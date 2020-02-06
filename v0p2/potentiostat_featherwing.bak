@@ -657,6 +657,4 @@ $EndComp
 Wire Wire Line
 	8300 1800 8300 1650
 Connection ~ 8300 1800
-Text Notes 7150 5300 0    100  ~ 0
-Do I need resistor for VGND unity gain buffer?
 $EndSCHEMATC
