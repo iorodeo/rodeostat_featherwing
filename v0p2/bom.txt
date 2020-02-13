@@ -1,13 +1,13 @@
-Ref      Description                   Package       Vendor      Part Number       Qty       
----------------------------------------------------------------------------------------------
-C1,C4         capacitor, 0.1uF, ceramic     0603          Digikey     399-1099-1-ND       2  
-C2            capacitor, 1.0uF, ceramic     0603          Digikey     399-7847-1-ND       1  
-C3            capacitor, 56nF,  ceramic     0603          Digikey     478-1236-1-ND       1  
-C5            capacitor, 10nF,  ceramic     0603          Digikey     478-1236-1-ND       1  
-J1            screw term, 3-pos             NA            Digikey     ED2636-ND           1  
-J2            1x3 male header               NA            Digikey     S1011EC-40-ND       1  
-J3            jumper wire                   NA            Digikey     923345-01-ND        1  
-R1,R2,R4,R5   resistor, 10k                 0603          Digikey     P10KDBCT-ND         1  
-R3            resistor, 16.5k               0603          Digikey     P16.5KDBCT-ND       1  
-U2            ADG702 SPST-NC switch,        SOT-23-6      Digikey     MCP6004T-I/SLCT-ND  1  
-U3            Quad op amp MCP6004           14-SOIC       Digikey     MCP6004T-I/SLCT-ND  1  
+Ref           Description                   Package       Vendor      Part Number           Qty       
+-----------------------------------------------------------------------------------------------
+C1,C4         capacitor, 0.1uF, ceramic     0603          Digikey     399-1099-1-ND          2  
+C2            capacitor, 1.0uF, ceramic     0603          Digikey     399-7847-1-ND          1  
+C3            capacitor, 56nF,  ceramic     0603          Digikey     478-1236-1-ND          1  
+C5            capacitor, 10nF,  ceramic     0603          Digikey     311-1085-1-ND          1  
+J1            screw term, 3-pos             NA            Digikey     ED2636-ND              1  
+J2            1x3 male header               NA            Digikey     S1011EC-40-ND          1  
+J3            jumper wire                   NA            Digikey     923345-01-ND           1  
+R1,R2,R4,R5   resistor, 10k                 0603          Digikey     P10KDBCT-ND            1  
+R3            resistor, 16.5k               0603          Digikey     P16.5KDBCT-ND          1  
+U2            ADG702 SPST-NC switch,        SOT-23-6      Digikey     ADG702BRTZ-REEL7CT-ND  1  
+U3            Quad op amp MCP6004           14-SOIC       Digikey     MCP6004T-I/SLCT-ND     1  
