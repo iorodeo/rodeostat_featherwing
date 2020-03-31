@@ -2,6 +2,8 @@
 
 Hardware design for IO Rodeo's Potentiostat Feather Wing.
 
+![screenshot](https://bitbucket.org/iorodeo/potentiostat_feather_wing/raw/master/images/screenshot_3d.png)
+
 ![image_1](https://bitbucket.org/iorodeo/potentiostat_feather_wing/raw/master/images/prototype_1.png)
 
 ![image_2](https://bitbucket.org/iorodeo/potentiostat_feather_wing/raw/master/images/prototype_2.png)
