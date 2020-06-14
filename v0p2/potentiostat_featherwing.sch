@@ -245,7 +245,7 @@ Wire Wire Line
 	6050 1950 5950 1950
 Connection ~ 6050 1950
 $Comp
-L ADG702:ADG702 U2
+L potentiostat_featherwing-rescue:ADG702-ADG702 U2
 U 1 1 5E4C7935
 P 7050 1950
 F 0 "U2" H 7050 2415 50  0000 C CNN

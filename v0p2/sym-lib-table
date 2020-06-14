@@ -5,4 +5,5 @@
   (lib (name screw_terminal_mod_01x03)(type Legacy)(uri ${KIPRJMOD}/screw_terminal_mod_01x03.lib)(options "")(descr ""))
   (lib (name MCP6004T)(type Legacy)(uri /home/wbd/work/products/potentiostat_featherwing/potentiostat_featherwing/v0p2/MCP6004T.lib)(options "")(descr ""))
   (lib (name ADG702)(type Legacy)(uri /home/wbd/work/products/potentiostat_featherwing/potentiostat_featherwing/v0p2/ADG702.lib)(options "")(descr ""))
+  (lib (name potentiostat_featherwing-rescue)(type Legacy)(uri ${KIPRJMOD}/potentiostat_featherwing-rescue.lib)(options "")(descr ""))
 )
