@@ -1,0 +1,10 @@
+Description,                        Ref,             Package,                  Part Number,    Qty       
+0.1uF ceramic capacitor,            C1 C4,            0603,                    C14663,	        2  
+1.0uF ceramic capacitor,            C2,               0603,                    C15849,          1  
+68nF  ceramic capacitor,            C3,               0603,                    C31658,          1  
+10nF  ceramic capacitor,            C5,               0603,                    C57112,	        1  
+10k  resistor,                      R1 R2 R4 R5,      0603,                    C190321,         4    
+ADG702 SPST-NC switch,              U2,               SOT-23-6L,               C133478,         1  
+TS5A3160 SPDT Analog Switch,        U2,               SOT-23-6L,               C185770,	        1  
+Quad op amp MCP6004,                U3,               SOIC-14_3.9x8.7x1.27P,   C7378,	        1  
+

@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name feather_wing)(type Legacy)(uri ${KIPRJMOD}/feather_wing.lib)(options "")(descr ""))
+  (lib (name LMP7721)(type Legacy)(uri ${KIPRJMOD}/LMP7721.lib)(options "")(descr ""))
+  (lib (name pin_array_3x1)(type Legacy)(uri ${KIPRJMOD}/pin_array_3x1.lib)(options "")(descr ""))
+  (lib (name screw_terminal_mod_01x03)(type Legacy)(uri ${KIPRJMOD}/screw_terminal_mod_01x03.lib)(options "")(descr ""))
+  (lib (name MCP6004T)(type Legacy)(uri ${KIPRJMOD}/MCP6004T.lib)(options "")(descr ""))
+  (lib (name ADG702)(type Legacy)(uri ${KIPRJMOD}/ADG702.lib)(options "")(descr ""))
+  (lib (name potentiostat_featherwing-rescue)(type Legacy)(uri ${KIPRJMOD}/potentiostat_featherwing-rescue.lib)(options "")(descr ""))
+  (lib (name TS5A3160)(type Legacy)(uri ${KIPRJMOD}/TS5A3160.lib)(options "")(descr ""))
+)
