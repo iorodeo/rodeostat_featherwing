@@ -658,4 +658,6 @@ Wire Wire Line
 Connection ~ 8700 1800
 Wire Wire Line
 	8700 1800 8700 1900
+Text Notes 7175 6850 0    50   ~ 0
+Rodeostat FeatherWing V0.3 R1
 $EndSCHEMATC
