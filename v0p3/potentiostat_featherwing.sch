@@ -660,4 +660,6 @@ Wire Wire Line
 	8700 1800 8700 1900
 Text Notes 7175 6850 0    50   ~ 0
 Rodeostat FeatherWing V0.3 R1
+Text Notes 1325 7350 0    80   ~ 0
+Example firmware and software: \nhttps://github.com/iorodeo/rodeostat_featherwing_example\n\nDesign files:\n https://github.com/iorodeo/rodeostat_featherwing
 $EndSCHEMATC
