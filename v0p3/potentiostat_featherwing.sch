@@ -410,7 +410,7 @@ L Device:R R3
 U 1 1 5E5A8D76
 P 5800 3250
 F 0 "R3" H 5870 3296 50  0000 L CNN
-F 1 "16.5k" H 5870 3205 50  0000 L CNN
+F 1 "16.5k" H 5870 3205 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 3250 50  0001 C CNN
 F 3 "~" H 5800 3250 50  0001 C CNN
 	1    5800 3250
@@ -662,4 +662,6 @@ Text Notes 7175 6850 0    50   ~ 0
 Rodeostat FeatherWing V0.3 R1
 Text Notes 1325 7350 0    80   ~ 0
 Example firmware and software: \nhttps://github.com/iorodeo/rodeostat_featherwing_example\n\nDesign files:\n https://github.com/iorodeo/rodeostat_featherwing
+Text Notes 6375 3425 0    50   ~ 0
+± 10uA  R3 = 165k\n± 100uA R3 = 16.5k\n± 1000uA R3 = 1.65k
 $EndSCHEMATC
