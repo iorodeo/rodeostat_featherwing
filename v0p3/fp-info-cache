@@ -1,4 +1,11 @@
-18515601839142549
+18927874731618199
+5x2_shrd_header
+5X2_SHRD_HEADER
+
+
+0
+10
+10
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55922,6 +55929,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MEA1
+MEA1
+
+
+0
+5
+5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -57315,13 +57329,6 @@ net tie
 0
 4
 4
-OST_SCREW_TERM_3
-CONNBLOCK3
-
-
-0
-3
-3
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -74486,13 +74493,6 @@ rotary encoder
 0
 5
 4
-SOIC-8_3.9x4.9mm_P1.27mm_HandSolder
-SOIC-8_3.9x4.9mm_P1.27mm_HandSolder
-8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
-SOIC 1.27
-0
-8
-8
 Sensor_Audio
 CUI_CMC-4013-SMT
 Omnidirectional, -42dB, reflowable, electret condenser microphone https://www.cuidevices.com/product/resource/cmc-4013-smt-tr.pdf
@@ -80933,10 +80933,52 @@ varistor SIOV
 0
 2
 2
-feather_wing
-feather_wing
+ost_connblocks
+CONNBLOCK2
 
 
 0
-30
-28
+2
+2
+ost_connblocks
+CONNBLOCK3
+
+
+0
+3
+3
+ost_connblocks
+CONNBLOCK4
+
+
+0
+4
+4
+pin_array
+PIN_ARRAY_2X1
+Connecteurs 2 pins
+CONN DEV
+0
+2
+2
+pin_array
+PIN_ARRAY_2X2
+Double rangee de contacts 2 x 2 pins
+CONN
+0
+4
+4
+pin_array
+PIN_ARRAY_3X1
+Connecteur 3 pins
+CONN DEV
+0
+3
+3
+teensy3x
+TEENSY3X
+
+
+0
+52
+51
